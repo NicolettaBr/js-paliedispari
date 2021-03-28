@@ -10,20 +10,20 @@ console.log(parolaUtente);
 //crea funzione se le 2 parole = --> palindroma altrimenti --> non palindroma
 
 function valutaParola (parolaDaValutare){
-    //crea ciclo per leggere parolaUtente da sinistra a destra
-for (var i = 0; i < parolaUtente.length; i++){
-    var parolaDritta = parolaUtente[i];
-    console.log(parolaDritta);
-    
-}
+        //crea ciclo per leggere parolaUtente da sinistra a destra
+    for (var i = 0; i < parolaUtente.length; i++){
+        var parolaDritta = parolaUtente[i];
+        console.log(parolaDritta);
+        
+    }
 
-   //crea ciclo per leggere parolaUtente da destra a sinistra
-for (var i = parolaUtente.length; i >= 0; i--){
-    var parolaContraria = parolaUtente[i];
-    console.log(parolaContraria);
-}
-    var risultato;
-    
+    //crea ciclo per leggere parolaUtente da destra a sinistra
+    for (var i = parolaUtente.length; i >= 0; i--){
+        var parolaContraria = parolaUtente[i];
+        console.log(parolaContraria);
+    }
+        var risultato;
+        
     //se (paroladritta = parolacontraria) = palindroma
     //altrimenti no palindroma
     if(parolaDritta == parolaContraria){
