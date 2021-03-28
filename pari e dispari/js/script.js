@@ -38,6 +38,29 @@ console.log(somma);
 
 
 //stabilire se numero ottenuto è pari o dispari (con funzione)
+numeroPariODispari(somma);
+console.log(somma);
 
+//funzione deve valutare se numero è pari o dispari
+//numero da valutare (argomento)
+//return --> pari se / 2, altrimenti dispari (stringa)
+
+function numeroPariODispari (numeroDaValutare){
+  var risultato;
+
+  if (numeroDaValutare % 2 == 0){
+    risultato = 'pari'; 
+  }else{
+    risultato = 'dispari';
+  }
+
+  return risultato;
+}
 
 //stampa chi ha vinto
+
+if(pariODispari == somma){
+  alert('Bravo! Hai vinto');
+}else{
+  alert('Peccato! Hai perso!');
+}
